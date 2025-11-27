@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerLife : MonoBehaviour
 {
+    [SerializeField] AudioSource deathSound;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Enemy Body"))
@@ -17,6 +18,7 @@ public class PlayerLife : MonoBehaviour
         GetComponent<Rigidbody>().isKinematic = true;
         GetComponent<PlayerMovement>().enabled = false;
         Invoke(nameof(ReloadLevel), 1.3f);
+        deathSound.Play();
     }
     void ReloadLevel()
     {

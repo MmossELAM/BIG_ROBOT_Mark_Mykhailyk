@@ -20,7 +20,7 @@ public class WaypointFollower : MonoBehaviour
             if (currentWaypointIndex >= waypoints.Length)
             {
                 currentWaypointIndex = 0;
-                coinsText.text = "Coins: " + coins;
+                
             }
         }
 
