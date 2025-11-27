@@ -2062,6 +2062,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2607206923406618622, guid: bafe311950bb81c47a73633d4f0baa51, type: 3}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3979951977347672084, guid: bafe311950bb81c47a73633d4f0baa51, type: 3}
+      propertyPath: m_Volume
+      value: 0.08
+      objectReference: {fileID: 0}
     - target: {fileID: 4908311695903475967, guid: bafe311950bb81c47a73633d4f0baa51, type: 3}
       propertyPath: coinsText
       value: 
@@ -2082,6 +2090,10 @@ PrefabInstance:
     - target: {fileID: 4134677249646032258, guid: 52450d768dd07b44996eafb9cc17031e, type: 3}
       propertyPath: m_Name
       value: Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496134796844071129, guid: 52450d768dd07b44996eafb9cc17031e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7745767835093427435, guid: 52450d768dd07b44996eafb9cc17031e, type: 3}
       propertyPath: m_LocalPosition.x
